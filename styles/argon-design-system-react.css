@@ -16,12 +16,12 @@
 
 */
 @font-face {
-	font-family: Augestina;
-	src: url('/fonts/Agustina.otf');
+	font-family: Gelyti400;
+	src: url('/fonts/Gelyti400.otf');
 }
 
 #nav-title {
-	font-family: Augestina;
+	font-family: Gelyti400;
 	text-transform: capitalize;
 }
 

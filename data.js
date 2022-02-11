@@ -1,17 +1,18 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-	name: "Yassine ELHOUBI",
-	title: `HI, I'M Yassine Full Stack Developer`,
+	name: "Yassine Elhoubi",
+	title: `HI, I'M YASSINE ELHOUBI`,
 	description:
-		`
-		My name is Yassine Elhoubi , im sur 24 years old, from safi morocco,
-		im a creative, enthusiastic and fun-loving person. I am a Full stack web developer. `,
-	resumeLink: "hh",
+		`A passionate Full Stack Web Developer and Mobile App Developer 
+		having an experience of building Web applications with JavaScript
+		 / Reactjs / React Native / Angular / Vue / Nodejs / ExpressJs / PHP / 
+		 Laravel and some other cool libraries and frameworks`,
+	resumeLink: "resume",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "yassineelhoubi",
 };
 
 export const contact = {};
@@ -21,7 +22,7 @@ export const socialLinks = {
 	instagram: "https://www.instagram.com/accounts/login/?next=/yassine.lhb",
 	twitter: "https://twitter.com",
 	github: "https://github.com/yassineelhoubi",
-	linkedin: "www.linkedin.com/in/yassine-el-houbi-534a7918a",
+	linkedin: "https://linkedin.com/in/yassine-el-houbi-534a7918a",
 };
 
 export const skillsSection = {
@@ -204,19 +205,19 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
+		name: "ecommerce website",
+		desc: "End of year project for the first year (Fil Rouge project), Youcode safi 2021",
+		github: "https://github.com/yassineelhoubi/ecommerce-website.git",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "Marjane Promotion Management",
+		desc: "Marjane Promotions Management Web Application",
+		github: "https://github.com/yassineelhoubi/Marjane_Promotion_Management_Part2.git",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "Delivery Management",
+		desc: "Management of company delivery MarocShip",
+		github: "https://github.com/yassineelhoubi/deliveryManagement_client.git",
 		link: "https://example.com",
 	},
 ];
