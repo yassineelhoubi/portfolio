@@ -176,36 +176,26 @@ export const educationInfo = [
 ];
 
 export const experience = [
+
 	{
-		role: "Software Engineer",
-		company: "Google",
-		companylogo: "/img/icons/common/google.svg",
-		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		role: "Full Stack Developer",
+		company: "MMPG",
+		companylogo: "/img/icons/common/mmpg.png",
+		date: "Sep 2021 – Oct 2021",
+		desc: "MMPG Consulting is a Software Consulting practice established in 2019 covering the needs of SMBs and Enterprises accross Europe and Africa.",
 	},
 	{
-		role: "Front-End Developer",
-		company: "Github",
-		companylogo: "/img/icons/common/github.svg",
-		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-	},
-	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: "/img/icons/common/airbnbLogo.png",
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		role: "Full Stack Web Developer Student ",
+		company: "Youcode",
+		companylogo: "/img/icons/common/youcode.png",
+		date: "Dec 2010 – Present",
+		desc: "YouCode... It's not just a name. It's a whole philosophy. YouCode is an inclusive school that provides opportunities for all. You... like... you. YouCode places the individual at the center of its pedagogy while helping him/her to develop a synergy of work with others. Code... like code. From websites to algorithms to apps.",
 	},
 ];
 
 export const projects = [
 	{
-		name: "ecommerce website",
+		name: "Ecommerce Website",
 		desc: "End of year project for the first year (Fil Rouge project), Youcode safi 2021",
 		github: "https://github.com/yassineelhoubi/ecommerce-website.git",
 	},
