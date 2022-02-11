@@ -17,26 +17,24 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	facebook: "https://www.facebook.com/people/Yassine-Lhb/100015389802629",
+	instagram: "https://www.instagram.com/accounts/login/?next=/yassine.lhb",
+	twitter: "https://twitter.com",
+	github: "https://github.com/yassineelhoubi",
+	linkedin: "www.linkedin.com/in/yassine-el-houbi-534a7918a",
 };
 
 export const skillsSection = {
-	title: "What I do",
-	subTitle:
-		"CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+	title: "My Skills",
 	skills: [
 		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+			"⚡Design and develop user interface components by integrating security recommendations"
 		),
 		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+			"⚡ Design and develop data persistence by integrating security recommendations"
 		),
 		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+			"⚡ Design and develop a multilayer distributed application by integrating security recommendations"
 		),
 	],
 
@@ -54,6 +52,10 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:sass",
 		},
 		{
+			skillName: "bootstrap",
+			fontAwesomeClassname: "logos:bootstrap",
+		},
+		{
 			skillName: "JavaScript",
 			fontAwesomeClassname: "logos:javascript",
 		},
@@ -66,49 +68,62 @@ export const skillsSection = {
 			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
 		},
 		{
+			skillName: "angular",
+			fontAwesomeClassname: "logos:angular-icon",
+		},
+		{
+			skillName: "vue",
+			fontAwesomeClassname: "logos:vue",
+		},
+		{
 			skillName: "nodejs",
 			fontAwesomeClassname: "logos:nodejs-icon",
 		},
 		{
-			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter",
+			skillName: "express",
+			fontAwesomeClassname: "logos:express",
 		},
 		{
-			skillName: "swift",
-			fontAwesomeClassname: "vscode-icons:file-type-swift",
+			skillName: "php",
+			fontAwesomeClassname: "logos:php",
+		},
+		{
+			skillName: "laravel",
+			fontAwesomeClassname: "logos:laravel",
 		},
 		{
 			skillName: "npm",
 			fontAwesomeClassname: "vscode-icons:file-type-npm",
 		},
 		{
-			skillName: "sql-database",
-			fontAwesomeClassname: "vscode-icons:file-type-sql",
+			skillName: "yarn",
+			fontAwesomeClassname: "vscode-icons:file-type-yarn",
+		},
+		{
+			skillName: "mysql",
+			fontAwesomeClassname: "logos:mysql",
+		},
+		{
+			skillName: "laragon",
+			fontAwesomeClassname: "simple-icons:laragon",
 		},
 		{
 			skillName: "mongoDB",
 			fontAwesomeClassname: "vscode-icons:file-type-mongo",
 		},
 		{
-			skillName: "aws",
-			fontAwesomeClassname: "logos:aws",
-		},
-		{
 			skillName: "firebase",
 			fontAwesomeClassname: "logos:firebase",
-		},
-		{
-			skillName: "python",
-			fontAwesomeClassname: "logos:python",
 		},
 		{
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
 		},
 		{
-			skillName: "docker",
-			fontAwesomeClassname: "logos:docker-icon",
+			skillName: "github",
+			fontAwesomeClassname: "akar-icons:github-fill",
 		},
+
 	],
 };
 
