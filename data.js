@@ -57,6 +57,10 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:bootstrap",
 		},
 		{
+			skillName: "tailwindcss",
+			fontAwesomeClassname: "logos:tailwindcss-icon",
+		},
+		{
 			skillName: "JavaScript",
 			fontAwesomeClassname: "logos:javascript",
 		},
@@ -67,6 +71,10 @@ export const skillsSection = {
 		{
 			skillName: "reactjs",
 			fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+		},
+		{
+			skillName: "redux",
+			fontAwesomeClassname: "logos:redux",
 		},
 		{
 			skillName: "angular",

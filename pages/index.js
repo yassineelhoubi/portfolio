@@ -9,9 +9,57 @@ const Experience = dynamic(() => import("../containers/Experience"));
 const Education = dynamic(() => import("../containers/Education"));
 const Proficiency = dynamic(() => import("../containers/Proficiency"));
 import { openSource } from "../data";
+import SEO from "../components/SEO";
 export default function Home({ githubProfileData }) {
   return (
     <>
+    	<SEO
+				data={{
+					title: "Yassine ELHOUBI",
+					description:
+						"A passionate Full Stack Web Developer and Mobile App Developer.",
+					image: "",//picture
+					url: "",//portfolio link
+					keywords: [
+						"Yassine",
+						"Yassine ELHOUBI",
+						"elhoubi",
+						"lhb",
+						"yassine",
+						"yassine elhoubi",
+						"youcode",
+						"simplon",
+						"UM6P",
+						"LEET",
+						"1337",
+						"MMPG",
+						"Food7Go",
+						"Cleanzy",
+						"linkedin",
+						"web developer",
+						"full stack",
+						"full stack web developer",
+						"mobile app developer",
+						"android developer",
+						"nodejs ",
+						"expressjs",
+						"reactjs ",
+						"angular ",
+						"vue",
+						"firebase ",
+						"vuex ",
+						"laravel ",
+						"contextapi",
+						"redux",
+						"php",
+						"css",
+						"scss",
+						"bootstrap",
+						"tailwind",
+						"Mui",
+					],
+				}}
+			/>
       <Navigation />
       <Greetings />
       <Skills />
