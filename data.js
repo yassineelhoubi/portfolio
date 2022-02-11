@@ -145,32 +145,37 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Simplon (Youcode)",
+		subHeader: "Concepteur développeur d'applications, Computer Programming/Programmer, General",
+		duration: "Dec 2020 - Jun 2022",
+		desc: "Simplon.co is a network of social digital factories that offers intensive training to learn how to create websites.",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Concevoir et développer des composants d'interface utilisateur en intégrant les recommandations de sécurité",
+			"Concevoir et développer la persistance des données en intégrant les recommandations de sécurité",
+			"Concevoir et développer une application multicouche répartie en intégrant les recommandations de sécurité",
 		],
 	},
 	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Free candidate ",
+		subHeader: "Technical baccalaureate , Electrical Sciences and Technologies",
+		duration: "Sep 2019 - Jul 2020",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Acquisition, traitement et communication de l’information",
+			"Alimentation, distribution et conversion de l’énergie",
+			"Transmission de puissance",
 		],
 	},
 	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+		schoolName: "ISTA 1 SAFI",
+		subHeader: "High School Diploma, Diploma of Technician in Industrial Maintenance Electricity",
+		duration: "Sep 2017 - Jul 2019",
+		desc: "The Office of Vocational Training and Work Promotion (OFPPT) is a public operator in vocational training, covering the Moroccan territory.",
 		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
+			"Programmation d’API",
+			"Réalisation, installation et modification des schémas électriques",
+			"Installation et dépannage des moteurs et des génératrices à CC et CA",
+			"Installation, réparation de commande électronique des moteurs",
+			"Installation et entretien de transformateurs",
 		],
 	},
 ];
@@ -196,25 +201,25 @@ export const experience = [
 export const projects = [
 	{
 		name: "Ecommerce Website",
-		type:"Academic project",
+		type: "Academic project",
 		desc: "End of year project for the first year (Fil Rouge project), Youcode safi 2021",
 		github: "https://github.com/yassineelhoubi/ecommerce-website.git",
 	},
 	{
 		name: "Marjane Promotion Management",
-		type:"Academic project",
+		type: "Academic project",
 		desc: "Marjane Promotions Management Web Application",
 		github: "https://github.com/yassineelhoubi/Marjane_Promotion_Management_Part2.git",
 	},
 	{
 		name: "Delivery Management",
-		type:"Academic project",
+		type: "Academic project",
 		desc: "Management of company delivery MarocShip",
 		github: "https://github.com/yassineelhoubi/deliveryManagement_client.git",
 	},
 	{
 		name: "Cleanzy",
-		type:"Internship project",
+		type: "Internship project",
 		desc: `
 		Represents a new generation of dry cleaners that is aligned with the will of Moroccans to
 		to preserve their environment while looking for a better quality of cleaning. `,
@@ -222,7 +227,7 @@ export const projects = [
 	},
 	{
 		name: "Food7Go",
-		type:"Internship project",
+		type: "Internship project",
 		desc: `Food7go is a team of dynamic entrepreneurs with a solid experience in the F&B, hospitality
 		in the F&B, hospitality, delivery and food-tech sectors. A truly multicultural team with
 		International exposure with experiences in Dubai, London, Singapore and Spain `,
@@ -230,27 +235,15 @@ export const projects = [
 	},
 	{
 		name: "Motoblockchain",
-		type:"Internship project",
+		type: "Internship project",
 		desc: `Motoblockchain is a project to register the digital identity of your motorcycle on the blockchain
 		Matic`,
 		link: "https://motoblockchain.us/",
 	},
 	{
 		name: "Sosympl",
-		type:"Internship project",
+		type: "Internship project",
 		desc: `Sosympl est un projet visant à digitaliser les processus des petites et moyennes entreprises. Sosympl`,
 	},
 ];
 
-export const feedbacks = [
-	{
-		name: "Hassan Mehmood",
-		feedback:
-			"We have been very happy with our new website! It looks professional and very easy to navigate. Our experience with the customer service at Hanzla tauqeer has been great. They handle things very efficiently and are available for any questions we have. They also keep us updated on daily reports so we know how our site is doing. I would recommend that u have choose hanzla web developer services for u.",
-	},
-	{
-		name: "Maheen Altaf",
-		feedback:
-			"the website is very nice, everything was perfectly made as i need. it just loads in moments, without giving u the chance to wait. the quality is also very amazing. i am using it without any problem. great job",
-	},
-];
