@@ -4,14 +4,32 @@ const Navigation = dynamic(() => import("../components/Navigation"));
 const Greetings = dynamic(() => import("../containers/Greetings"));
 const Skills = dynamic(() => import("../containers/Skills"));
 const Projects = dynamic(() => import("../containers/Projects"));
-export default function Home() {
+const GithubProfileCard = dynamic(() =>
+  import("../components/GithubProfileCard")
+);
+import { openSource } from "../data";
+export default function Home({ githubProfileData }) {
   return (
     <>
-    <Navigation />
-    <Greetings/>
-    <Skills />
-    <Projects/>
+      <Navigation />
+      <Greetings />
+      <Skills />
+      <Projects />
+      <GithubProfileCard prof={githubProfileData} />
     </>
-    
+
   )
+}
+Home.prototype = {
+  githubProfileData: PropTypes.object.isRequired,
+};
+
+export async function getStaticProps(_) {
+  const githubProfileData = await fetch(
+    `https://api.github.com/users/${openSource.githubUserName}`
+  ).then((res) => res.json());
+
+  return {
+    props: { githubProfileData },
+  };
 }
