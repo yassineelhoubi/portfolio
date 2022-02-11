@@ -196,19 +196,49 @@ export const experience = [
 export const projects = [
 	{
 		name: "Ecommerce Website",
+		type:"Academic project",
 		desc: "End of year project for the first year (Fil Rouge project), Youcode safi 2021",
 		github: "https://github.com/yassineelhoubi/ecommerce-website.git",
 	},
 	{
 		name: "Marjane Promotion Management",
+		type:"Academic project",
 		desc: "Marjane Promotions Management Web Application",
 		github: "https://github.com/yassineelhoubi/Marjane_Promotion_Management_Part2.git",
 	},
 	{
 		name: "Delivery Management",
+		type:"Academic project",
 		desc: "Management of company delivery MarocShip",
 		github: "https://github.com/yassineelhoubi/deliveryManagement_client.git",
-		link: "https://example.com",
+	},
+	{
+		name: "Cleanzy",
+		type:"Internship project",
+		desc: `
+		Represents a new generation of dry cleaners that is aligned with the will of Moroccans to
+		to preserve their environment while looking for a better quality of cleaning. `,
+		link: "https://www.cleanzy.ma/",
+	},
+	{
+		name: "Food7Go",
+		type:"Internship project",
+		desc: `Food7go is a team of dynamic entrepreneurs with a solid experience in the F&B, hospitality
+		in the F&B, hospitality, delivery and food-tech sectors. A truly multicultural team with
+		International exposure with experiences in Dubai, London, Singapore and Spain `,
+		link: "https://food7go.com/",
+	},
+	{
+		name: "Motoblockchain",
+		type:"Internship project",
+		desc: `Motoblockchain is a project to register the digital identity of your motorcycle on the blockchain
+		Matic`,
+		link: "https://motoblockchain.us/",
+	},
+	{
+		name: "Sosympl",
+		type:"Internship project",
+		desc: `Sosympl est un projet visant à digitaliser les processus des petites et moyennes entreprises. Sosympl`,
 	},
 ];
 
