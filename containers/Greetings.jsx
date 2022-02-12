@@ -5,6 +5,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
+import { Icon } from "@iconify/react";
 
 const Greetings = () => {
 	useEffect(() => {
@@ -36,12 +37,35 @@ const Greetings = () => {
 									<p className="lead text-white">
 										{greetings.description}
 									</p>
+									<div className="text-white mb-2">
+										<Button
+											className="btn-icon-only rounded-circle "
+											href="mailto: elhoubiyassine@gmail.com"
+										>
+											<span className="btn-inner--icon">
+												<Icon icon="mdi:at" />
+											</span>
+										</Button>
+										<span>elhoubiyassine@gmail.com</span>
+									</div>
+									<div className="text-white mb-3">
+										<Button
+											className="btn-icon-only rounded-circle "
+											href="tel: elhoubiyassine@gmail.com"
+										>
+											<span className="btn-inner--icon">
+												<Icon icon="akar-icons:phone" />
+											</span>
+										</Button>
+										<span>0621409091</span>
+									</div>
 									<SocialLinks />
 									<div className="btn-wrapper my-4">
 										<Button
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
 											color="default"
 											href={greetings.resumeLink}
+											target="_blank"
 										>
 											<span className="btn-inner--icon mr-1">
 												<i className="fa fa-file" />

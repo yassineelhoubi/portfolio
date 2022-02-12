@@ -6,9 +6,9 @@ export const greetings = {
 	description:
 		`A passionate Full Stack Web Developer and Mobile App Developer 
 		having an experience of building Web applications with JavaScript
-		 / Reactjs / React Native / Angular / Vue / Nodejs / ExpressJs / PHP / 
+		 / React / React Native / Angular / Vue / Nodejs / ExpressJs / PHP / 
 		 Laravel and some other cool libraries and frameworks`,
-	resumeLink: "resume",
+	resumeLink: "https://www.linkedin.com/in/yassine-elhoubi-534a7918a",
 };
 
 export const openSource = {
@@ -22,7 +22,7 @@ export const socialLinks = {
 	instagram: "https://www.instagram.com/accounts/login/?next=/yassine.lhb",
 	twitter: "https://twitter.com",
 	github: "https://github.com/yassineelhoubi",
-	linkedin: "https://linkedin.com/in/yassine-el-houbi-534a7918a",
+	linkedin: "https://www.linkedin.com/in/yassine-elhoubi-534a7918a",
 };
 
 export const skillsSection = {

@@ -1,6 +1,7 @@
+import { Icon } from "@iconify/react";
 import React from "react";
 
-import { Card, Col, Row, Container } from "reactstrap";
+import { Card, Col, Row, Container, Button } from "reactstrap";
 
 import SocialLinks from "../components/SocialLinks";
 
@@ -31,6 +32,28 @@ const GithubProfileCard = ({ prof }) => {
 								{prof.location}
 							</div>
 							<SocialLinks />
+							<div className="text-white mb-2 mt-3">
+								<Button
+									className="btn-icon-only rounded-circle "
+									href="mailto: elhoubiyassine@gmail.com"
+								>
+									<span className="btn-inner--icon">
+										<Icon icon="mdi:at" />
+									</span>
+								</Button>
+								<span>elhoubiyassine@gmail.com</span>
+							</div>
+							<div className="text-white mb-3">
+								<Button
+									className="btn-icon-only rounded-circle "
+									href="tel: elhoubiyassine@gmail.com"
+								>
+									<span className="btn-inner--icon">
+										<Icon icon="akar-icons:phone" />
+									</span>
+								</Button>
+								<span>0621409091</span>
+							</div>
 						</Col>
 					</Row>
 				</div>
