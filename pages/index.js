@@ -18,8 +18,8 @@ export default function Home({ githubProfileData }) {
 					title: "Yassine ELHOUBI",
 					description:
 						"A passionate Full Stack Web Developer and Mobile App Developer.",
-					image: "",//picture
-					url: "",//portfolio link
+					image: "https://avatars.githubusercontent.com/u/77664568?v=4",//picture
+					url: "https://yassineelhoubi-seven-sepia.vercel.app/",
 					keywords: [
 						"Yassine",
 						"Yassine ELHOUBI",
