@@ -13,7 +13,6 @@ import Color from "color-thief-react";
 import { Fade } from "react-reveal";
 import Image from "next/image";
 
-const prefix = "/portfolio";
 
 const ExperienceCard = ({ data }) => {
 	return (
@@ -36,7 +35,7 @@ const ExperienceCard = ({ data }) => {
 							style={{ width: "100px", height: "100px" }}
 						>
 							<Image
-								src={prefix +data.companylogo}
+								src={data.companylogo}
 								width={"100px"}
 								height={"100px"}
 								alt={data.companylogo}

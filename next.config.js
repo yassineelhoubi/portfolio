@@ -3,6 +3,4 @@ module.exports = {
 	images: {
 		domains: ["avatars.githubusercontent.com"],
 	},
-	basePath :'/portfolio',
-	assetPrefix : '/portfolio'
 };
