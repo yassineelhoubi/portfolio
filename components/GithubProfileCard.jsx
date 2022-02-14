@@ -46,7 +46,7 @@ const GithubProfileCard = ({ prof }) => {
 							<div className="text-white mb-3">
 								<Button
 									className="btn-icon-only rounded-circle "
-									href="tel: elhoubiyassine@gmail.com"
+									href="tel: 0621409091"
 								>
 									<span className="btn-inner--icon">
 										<Icon icon="akar-icons:phone" />
