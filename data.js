@@ -201,7 +201,7 @@ export const experience = [
 		role: "Full Stack Web Developer Student ",
 		company: "Youcode",
 		companylogo: "/img/icons/common/youcode.png",
-		date: "Dec 2010 – Present",
+		date: "Dec 2020 – Present",
 		desc: "YouCode... It's not just a name. It's a whole philosophy. YouCode is an inclusive school that provides opportunities for all. You... like... you. YouCode places the individual at the center of its pedagogy while helping him/her to develop a synergy of work with others. Code... like code. From websites to algorithms to apps.",
 	},
 ];
