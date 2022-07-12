@@ -154,13 +154,13 @@ export const SkillBars = [
 export const educationInfo = [
 	{
 		schoolName: "Simplon (Youcode)",
-		subHeader: "Concepteur développeur d'applications, Computer Programming/Programmer, General",
+		subHeader: "Computer Software Engineering",
 		duration: "Dec 2020 - Jun 2022",
 		desc: "Simplon.co is a network of social digital factories that offers intensive training to learn how to create websites.",
 		descBullets: [
-			"Concevoir et développer des composants d'interface utilisateur en intégrant les recommandations de sécurité",
-			"Concevoir et développer la persistance des données en intégrant les recommandations de sécurité",
-			"Concevoir et développer une application multicouche répartie en intégrant les recommandations de sécurité",
+			"Design and develop user interface components by integrating security recommendations",
+			"Design and develop data persistence by integrating security recommendations",
+			"Design and develop a multilayer distributed application by integrating security recommendations",
 		],
 	},
 	{
