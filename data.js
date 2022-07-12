@@ -189,7 +189,14 @@ export const educationInfo = [
 ];
 
 export const experience = [
-
+	{
+		role: "IT Developer",
+		company: "Ayouris",
+		companylogo: "/img/icons/common/ayouris.png",
+		date: "May 2022 – Present",
+		desc:`Ayouris offers a wide range of services and competences, having the capacity to accompany its customers from start to finish, from strategic and business thinking to the implementation of know-how and technical expertise.
+		Since its creation in 2009, Ayouris has made sure to simplify the daily life of its customers, by offering them easy and adaptable professional solutions to their needs`
+	},
 	{
 		role: "Full Stack Developer",
 		company: "MMPG",
@@ -198,10 +205,10 @@ export const experience = [
 		desc: "MMPG Consulting is a Software Consulting practice established in 2019 covering the needs of SMBs and Enterprises accross Europe and Africa.",
 	},
 	{
-		role: "Full Stack Web Developer Student ",
+		role: "Full Stack Web Developer Student",
 		company: "Youcode",
 		companylogo: "/img/icons/common/youcode.png",
-		date: "Dec 2020 – Present",
+		date: "Dec 2020 – Jun 2022",
 		desc: "YouCode... It's not just a name. It's a whole philosophy. YouCode is an inclusive school that provides opportunities for all. You... like... you. YouCode places the individual at the center of its pedagogy while helping him/her to develop a synergy of work with others. Code... like code. From websites to algorithms to apps.",
 	},
 ];
